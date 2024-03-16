@@ -1,18 +1,21 @@
 import './App.css';
-import Main from './components/Main';
 import Header from './components/Header';
-import Whatsapp from './components/Whatsapp';
-import WeOffer from './components/WeOffer';
 import Footer from './components/Footer';
+import Main from './components/Main';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
-      <Main />
-      <Whatsapp />
+
+        <Routes>
+          <Route path="/" element={<Main/>} />
+          <Route path="*" element={<Main/>} />
+        </Routes>
+
       <Footer />
-    </>
+    </Router>
   );
 }
 
