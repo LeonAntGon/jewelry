@@ -29,7 +29,7 @@ export default function Header() {
                             <p className='text-white text-xl'>CASA</p>
                         </div>
                         <hr className='w-[70%]'></hr>
-                        <div className='pb-3'>
+                        <div className='pb-2'>
                             <p className='text-white text-xl'>SOBRE NOSOTROS</p>
                         </div>
                         <hr className='w-[70%]'></hr>
