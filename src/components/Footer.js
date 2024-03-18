@@ -16,7 +16,7 @@ const Footer = () => {
       <div className='grid grid-cols-2'>
         <div className='col-span-1'>
         <h3 className='text-white text-center text-base font-semibold'>Horario</h3>
-        <div className='pl-4 pt-2'>
+        <div className='pl-10 pt-2'>
           <p className='text-white text-sm font-semibold'>Lunes a sábado:</p>
           <p className='text-white text-sm font-semibold'>De 10:30 a 21:00 horas</p>
         </div>
