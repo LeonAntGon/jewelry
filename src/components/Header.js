@@ -24,7 +24,7 @@ export default function Header() {
             </div>
             <div className="bg-neutral-950 fixed h-screen w-[250px]" style={{ display: isDivVisible ? 'block' : 'none' }}>
                     
-                    <div className="grid grid-rows-2 gap-4 pt-[60px] pl-6">
+                    <div className="grid grid-rows-2 gap-4 pt-[68px] pl-6">
                         <div className=''>
                             <p className='text-white text-xl'>CASA</p>
                         </div>
