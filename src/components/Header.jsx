@@ -25,7 +25,7 @@ export default function Header() {
             </div>
 
             {/*Menu Lateral*/}
-            <div className="bg-neutral-950 fixed h-screen w-[250px]" style={{ display: isDivVisible ? 'block' : 'none' }}>
+            <div className="bg-neutral-950 fixed h-screen w-[200px]" style={{ display: isDivVisible ? 'block' : 'none' }}>
             
             
             <button type="button" onClick={toggleDivVisibility} 
@@ -39,12 +39,12 @@ export default function Header() {
 
                     <div className="grid grid-rows-2 gap-4 pt-[68px] pl-6">
                         <div className=''>
-                            <Link to="/"><p className='text-white text-xl'>INICIO</p></Link>
+                            <Link to="/"><p className='text-white text-base'>INICIO</p></Link>
 
                         </div>
                         <hr className='w-[70%]'></hr>
                         <div className='pb-2'>
-                            <Link to="/nosotros"><p className='text-white text-xl'>SOBRE NOSOTROS</p></Link>
+                            <Link to="/nosotros"><p className='text-white text-base'>SOBRE NOSOTROS</p></Link>
                         </div>
                         <hr className='w-[70%]'></hr>
                     </div>
