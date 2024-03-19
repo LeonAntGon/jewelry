@@ -1,6 +1,7 @@
 import ig from './assets/ig.png';
 import facebook from './assets/facebook.png';
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -26,11 +27,12 @@ export default function Header() {
                     
                     <div className="grid grid-rows-2 gap-4 pt-[68px] pl-6">
                         <div className=''>
-                            <p className='text-white text-xl'>CASA</p>
+                            <Link to="/"><p className='text-white text-xl'>INICIO</p></Link>
+
                         </div>
                         <hr className='w-[70%]'></hr>
                         <div className='pb-2'>
-                            <p className='text-white text-xl'>SOBRE NOSOTROS</p>
+                            <Link to="/nosotros"><p className='text-white text-xl'>SOBRE NOSOTROS</p></Link>
                         </div>
                         <hr className='w-[70%]'></hr>
                     </div>
@@ -44,11 +46,10 @@ export default function Header() {
                                md:flex'>
                     
                     <div>
-                        <p className='text-white text-xl pr-2 lg:pr-5'>CASA</p>
-                        
+                        <Link to="/"><p className='text-white text-lg pr-2 lg:pr-5'>INICIO</p> </Link>
                     </div>
                     <div>
-                        <p className='text-white text-xl'>SOBRE NOSOTROS</p>
+                        <Link to="/nosotros"><p className='text-white text-lg'>SOBRE NOSOTROS</p></Link>
                     </div>
                 
 
@@ -61,13 +62,13 @@ export default function Header() {
                             ">
                     <div>
                         <a href="">
-                            <img  className="h-[30px] pr-2 lg:pr-5" src={ig} alt="Instagram link"/>
+                            <img  className="h-[25px] pr-2 lg:pr-5" src={ig} alt="Instagram link"/>
                         </a>
                     </div>
                 <div>
                     <div>
                         <a href="">
-                            <img  className="h-[32px] "src={facebook} alt="Facebook link"/>
+                            <img  className="h-[26px] "src={facebook} alt="Facebook link"/>
                         </a>
                 </div>
 

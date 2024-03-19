@@ -14,18 +14,19 @@ const Footer = () => {
     
 
       <div className='grid grid-cols-2'>
-        <div className='col-span-1'>
-        <h3 className='text-white text-center text-base font-semibold'>Horario</h3>
-        <div className='pl-10 pt-2'>
-          <p className='text-white text-sm font-semibold'>Lunes a sábado:</p>
-          <p className='text-white text-sm font-semibold'>De 10:30 a 21:00 horas</p>
+        <div className='col-span-1 pt-1'>
+        <h3 className='text-gray-200 text-center text-[18px] font-semibold'>Horario de atención</h3>
+        <div className='pl-6 pt-3'>
+          <p className='text-gray-200 text-base font-semibold'>Lunes a sábado:</p>
+          <p className='text-gray-200 text-base font-semibold'>De 10:30 hrs a 21:00 hrs</p>
         </div>
           
         </div>
 
-        <div className='col-span-1 pt-4'>
+        <div className='col-span-1 '>
         <img src={gpsImg} alt="Imagen gps" className='h-8 mx-auto'/>
-        <p className='text-white text-center pt-2 text-base font-semibold'>Maipu 167 - Local 6</p>
+        <p className='text-gray-200 text-center pt-2 text-base font-semibold'>Maipu 167 - Local 6</p>
+        <p className='text-gray-200 text-center pt-2 text-base font-semibold'>San Miguel de Tucumán</p>
         </div>
       </div>
         
