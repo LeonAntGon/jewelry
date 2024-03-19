@@ -18,13 +18,25 @@ export default function Header() {
 
             {/*Hamburguer*/ }
             <div className="mx-5 pt-5 [&>span]:h-[3px] [&>span]:rounded-sm
-                            md:hidden cursor-pointer z-30" onClick={toggleDivVisibility} >
+                            md:hidden cursor-pointer" onClick={toggleDivVisibility} >
                 <span className="block w-6 bg-white mb-[6px]"></span>
                 <span className="block w-4 bg-white mb-[6px]"></span>
                 <span className="block w-5 bg-white"></span>
             </div>
+
+            {/*Menu Lateral*/}
             <div className="bg-neutral-950 fixed h-screen w-[250px]" style={{ display: isDivVisible ? 'block' : 'none' }}>
-                    
+            
+            
+            <button type="button" onClick={toggleDivVisibility} 
+                     className=" rounded-md p-2 inline-flex items-center justify-center text-gray-100  focus:outline-none
+                    focus:ring-2 focus:ring-inset float-right pt-3"> 
+              <svg class="h-[40px] w-[80px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+
+
                     <div className="grid grid-rows-2 gap-4 pt-[68px] pl-6">
                         <div className=''>
                             <Link to="/"><p className='text-white text-xl'>INICIO</p></Link>
@@ -38,7 +50,7 @@ export default function Header() {
                     </div>
             </div>
 
-            {/*Title*/ }
+            {/*Header >= 768 con Titulo*/}
             <div className="inline-block float-right p-4
                             md:float-none md:text-center md:flex md:justify-around ">
 
