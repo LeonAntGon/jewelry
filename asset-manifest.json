@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jewelry/static/css/main.101f6643.css",
-    "main.js": "/jewelry/static/js/main.a6f9ad66.js",
+    "main.js": "/jewelry/static/js/main.1e425b35.js",
     "static/js/787.c3098d88.chunk.js": "/jewelry/static/js/787.c3098d88.chunk.js",
     "static/media/entrada.png": "/jewelry/static/media/entrada.96864da330bf66f97bbe.png",
     "static/media/título.png": "/jewelry/static/media/título.b1d0ecceb0841fcf6fc2.png",
@@ -15,11 +15,11 @@
     "static/media/whatsapp.png": "/jewelry/static/media/whatsapp.d026940870fb334920b7.png",
     "index.html": "/jewelry/index.html",
     "main.101f6643.css.map": "/jewelry/static/css/main.101f6643.css.map",
-    "main.a6f9ad66.js.map": "/jewelry/static/js/main.a6f9ad66.js.map",
+    "main.1e425b35.js.map": "/jewelry/static/js/main.1e425b35.js.map",
     "787.c3098d88.chunk.js.map": "/jewelry/static/js/787.c3098d88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.101f6643.css",
-    "static/js/main.a6f9ad66.js"
+    "static/js/main.1e425b35.js"
   ]
 }
