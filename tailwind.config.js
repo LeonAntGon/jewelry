@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         custom: {
           '100': 'rgb(201, 159, 122)',
+          
           // ...otros niveles de opacidad
         },
       },

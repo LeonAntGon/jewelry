@@ -1,8 +1,8 @@
 import React from 'react';
 import RingOne from './assets/rings/anillo-oro-plata(1).jpg';
-import RingTwo from './assets/rings/m-normal-in-gray(2).jpg';
+/*import RingTwo from './assets/rings/m-normal-in-gray(2).jpg';
 import RingThree from './assets/rings/m-bg-gray(3).jpg';
-import RingFour from './assets/rings/m-normal(4).jpg';
+import RingFour from './assets/rings/m-normal(4).jpg';*/
 import RingFive from './assets/rings/anillo-oro-plata-1(5).jpg';
 import RingSix from './assets/rings/snake (6).jpg';
 import RingSeven from './assets/rings/black (7).jpg';
@@ -12,11 +12,11 @@ import RingTen from  './assets/rings/gold (10).jpg';
 import RingEleven from './assets/rings/gold (11).jpg';
 
 
-const images = [RingOne, RingTwo, RingThree, RingFour, RingFive,
+const images = [RingOne, RingFive,
                 RingSix ,RingSeven,RingEight,RingNine,RingTen,RingEleven,];
 
-const name = ["Anillo de letra con iniciales", "2", "3", "4", "5","6","7","8","9","10","11",]
-{/*Eliminar del 2-4 */}
+const name = ["Anillo de letra con iniciales", "5","6","7","8","9","10","11",]
+/*Eliminar del 2-4 */
 
 export default function News() {
     return(
@@ -32,7 +32,7 @@ export default function News() {
                 {images.map((img, index) => (
                     <figure className='inline-block min-w-13 min-h-13 max-w-[100px] max-h-[100px] mt-4' key={index}>
                         <img className="w-full h-full rounded-md" src={img} alt="" />
-                        <figcaption className='inline text-white'>{name[index]}</figcaption>
+                        <figcaption className='inline text-white text-sm font-ibmplex'>{name[index]}</figcaption>
                     </figure>
                 ))}
             </div>
