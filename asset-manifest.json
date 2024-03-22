@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jewelry/static/css/main.e2979656.css",
-    "main.js": "/jewelry/static/js/main.ca27633a.js",
+    "main.js": "/jewelry/static/js/main.45a9235c.js",
     "static/js/787.c3098d88.chunk.js": "/jewelry/static/js/787.c3098d88.chunk.js",
     "static/media/entrada.png": "/jewelry/static/media/entrada.96864da330bf66f97bbe.png",
     "static/media/título.png": "/jewelry/static/media/título.b1d0ecceb0841fcf6fc2.png",
@@ -13,11 +13,11 @@
     "static/media/brazalete(1).jfif": "/jewelry/static/media/brazalete(1).99312361a0faf2467044.jfif",
     "index.html": "/jewelry/index.html",
     "main.e2979656.css.map": "/jewelry/static/css/main.e2979656.css.map",
-    "main.ca27633a.js.map": "/jewelry/static/js/main.ca27633a.js.map",
+    "main.45a9235c.js.map": "/jewelry/static/js/main.45a9235c.js.map",
     "787.c3098d88.chunk.js.map": "/jewelry/static/js/787.c3098d88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2979656.css",
-    "static/js/main.ca27633a.js"
+    "static/js/main.45a9235c.js"
   ]
 }
