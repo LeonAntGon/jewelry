@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/jewelry/static/css/main.2c4d9dfa.css",
-    "main.js": "/jewelry/static/js/main.9fad52b2.js",
+    "main.css": "/jewelry/static/css/main.4cc5eed0.css",
+    "main.js": "/jewelry/static/js/main.6a461080.js",
     "static/js/787.c3098d88.chunk.js": "/jewelry/static/js/787.c3098d88.chunk.js",
     "static/media/entrada.png": "/jewelry/static/media/entrada.96864da330bf66f97bbe.png",
     "static/media/título.png": "/jewelry/static/media/título.b1d0ecceb0841fcf6fc2.png",
     "static/media/Lobster-Regular.ttf": "/jewelry/static/media/Lobster-Regular.03c38496322925fec242.ttf",
     "static/media/IBMPlexSerif-Italic.ttf": "/jewelry/static/media/IBMPlexSerif-Italic.2b5aff93f15938c31f4b.ttf",
-    "static/media/m-normal(4).jpg": "/jewelry/static/media/m-normal(4).93f8648c37fc9c89c4a7.jpg",
-    "static/media/m-normal-in-gray(2).jpg": "/jewelry/static/media/m-normal-in-gray(2).cadc4a09595c2a99824b.jpg",
-    "static/media/m-bg-gray(3).jpg": "/jewelry/static/media/m-bg-gray(3).09d1f0fcde425da9968d.jpg",
     "static/media/anillo-oro-plata(1).jpg": "/jewelry/static/media/anillo-oro-plata(1).e0fe3398149f4f7e3bdb.jpg",
     "static/media/anillo-oro-plata-1(5).jpg": "/jewelry/static/media/anillo-oro-plata-1(5).0ab4fa7ba5f942ebb679.jpg",
     "static/media/whatsapp.png": "/jewelry/static/media/whatsapp.d026940870fb334920b7.png",
     "index.html": "/jewelry/index.html",
-    "main.2c4d9dfa.css.map": "/jewelry/static/css/main.2c4d9dfa.css.map",
-    "main.9fad52b2.js.map": "/jewelry/static/js/main.9fad52b2.js.map",
+    "main.4cc5eed0.css.map": "/jewelry/static/css/main.4cc5eed0.css.map",
+    "main.6a461080.js.map": "/jewelry/static/js/main.6a461080.js.map",
     "787.c3098d88.chunk.js.map": "/jewelry/static/js/787.c3098d88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c4d9dfa.css",
-    "static/js/main.9fad52b2.js"
+    "static/css/main.4cc5eed0.css",
+    "static/js/main.6a461080.js"
   ]
 }
