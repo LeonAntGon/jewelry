@@ -1,9 +1,10 @@
-import React from 'react';
 import RingOne from './assets/rings/anillo-oro-plata(1).jpg';
+import RingTwo from './assets/rings/anillo-oro-plata(2).jpg';
+import Grabado from './assets/rings/vale.jfif';
 /*import RingTwo from './assets/rings/m-normal-in-gray(2).jpg';
 import RingThree from './assets/rings/m-bg-gray(3).jpg';
-import RingFour from './assets/rings/m-normal(4).jpg';*/
-import RingFive from './assets/rings/anillo-oro-plata-1(5).jpg';
+import RingFour from './assets/rings/m-normal(4).jpg';
+import RingFive from './assets/rings/anillo-oro-plata-1(5).jpg';*/
 import RingSix from './assets/rings/snake (6).jpg';
 import RingSeven from './assets/rings/black (7).jpg';
 import RingEight from './assets/rings/black (8).jpg';
@@ -12,10 +13,10 @@ import RingTen from  './assets/rings/gold (10).jpg';
 import RingEleven from './assets/rings/gold (11).jpg';
 
 
-const images = [RingOne, RingFive,
+const images = [RingOne, RingTwo, Grabado,
                 RingSix ,RingSeven,RingEight,RingNine,RingTen,RingEleven,];
 
-const name = ["Anillo de letra con iniciales", "5","6","7","8","9","10","11",]
+const name = ["ANILLO DE LETRA", " ANILLO DE LETRA" ,"BRAZALETES","ANILLOS ARTESANALES","ANILLOS ARTESANALES","ANILLOS ARTESANALES"," AN. GRABADO ESPEJO","AN. GRABADO ESPEJO","AN. GRABADO ESPEJO",]
 /*Eliminar del 2-4 */
 
 export default function News() {
