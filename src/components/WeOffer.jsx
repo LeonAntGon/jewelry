@@ -7,7 +7,7 @@ export default function WeOffer() {
         <section className='grid place-items-center mx-3 my-5' style={{gridTemplateColumns: '1fr 1fr', gap: '8px'}}>
             <figure className='flex items-center relative z-1'>
                 <img className='w-12' src={Diamond} alt='Box' />
-                <figcaption className='text-sm font-semibold'> Trabajo personalizados</figcaption>
+                <figcaption className='text-sm font-semibold'> Trabajo personalizado</figcaption>
             </figure>
             <figure className='flex items-center relative z-1'>
                 <img className='w-12' src={Box} alt='Diamond'/>
