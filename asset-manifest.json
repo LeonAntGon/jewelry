@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jewelry/static/css/main.101f6643.css",
-    "main.js": "/jewelry/static/js/main.1e425b35.js",
+    "main.css": "/jewelry/static/css/main.2c4d9dfa.css",
+    "main.js": "/jewelry/static/js/main.9fad52b2.js",
     "static/js/787.c3098d88.chunk.js": "/jewelry/static/js/787.c3098d88.chunk.js",
     "static/media/entrada.png": "/jewelry/static/media/entrada.96864da330bf66f97bbe.png",
     "static/media/título.png": "/jewelry/static/media/título.b1d0ecceb0841fcf6fc2.png",
@@ -14,12 +14,12 @@
     "static/media/anillo-oro-plata-1(5).jpg": "/jewelry/static/media/anillo-oro-plata-1(5).0ab4fa7ba5f942ebb679.jpg",
     "static/media/whatsapp.png": "/jewelry/static/media/whatsapp.d026940870fb334920b7.png",
     "index.html": "/jewelry/index.html",
-    "main.101f6643.css.map": "/jewelry/static/css/main.101f6643.css.map",
-    "main.1e425b35.js.map": "/jewelry/static/js/main.1e425b35.js.map",
+    "main.2c4d9dfa.css.map": "/jewelry/static/css/main.2c4d9dfa.css.map",
+    "main.9fad52b2.js.map": "/jewelry/static/js/main.9fad52b2.js.map",
     "787.c3098d88.chunk.js.map": "/jewelry/static/js/787.c3098d88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.101f6643.css",
-    "static/js/main.1e425b35.js"
+    "static/css/main.2c4d9dfa.css",
+    "static/js/main.9fad52b2.js"
   ]
 }
