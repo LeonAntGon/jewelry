@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Main from './components/Main';
 import About from './components/pages/About.jsx';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Whatsapp from './components/Whatsapp.jsx'
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
           <Route path='/nosotros' element={<About/>}/>
         </Routes>
 
+      <Whatsapp/>
       <Footer />
+      
     </Router>
     </div>
   );

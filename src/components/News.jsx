@@ -15,7 +15,8 @@ import RingEleven from './assets/rings/gold (11).jpg';
 const images = [RingOne, RingTwo, RingThree, RingFour, RingFive,
                 RingSix ,RingSeven,RingEight,RingNine,RingTen,RingEleven,];
 
-const name = ["1", "2", "3", "4", "5","6","7","8","9","10","11",]
+const name = ["Anillo de letra con iniciales", "2", "3", "4", "5","6","7","8","9","10","11",]
+{/*Eliminar del 2-4 */}
 
 export default function News() {
     return(
@@ -29,7 +30,7 @@ export default function News() {
             <div className='pb-10'>
             <div className='inline-flex flex-wrap justify-center gap-8'>
                 {images.map((img, index) => (
-                    <figure className='inline-block min-w-13 min-h-13 max-w-[100px] max-h-[100px]' key={index}>
+                    <figure className='inline-block min-w-13 min-h-13 max-w-[100px] max-h-[100px] mt-4' key={index}>
                         <img className="w-full h-full rounded-md" src={img} alt="" />
                         <figcaption className='inline text-white'>{name[index]}</figcaption>
                     </figure>
