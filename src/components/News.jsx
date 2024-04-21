@@ -23,9 +23,9 @@ export default function News() {
     return(
 
 
-        <section className="text-center item-center bg-neutral-900 pt-3 pb-[70px] mt-5">
-            <h2 className='text-white mt-6 text-xl'>Novedades:</h2>
-            <div className="inline-block relative top-[-14px] w-3 h-1 bg-gray-100 rounded-full"></div>
+        <section className="border-t border-b border-black  text-center item-center bg-coolwhite-100 pt-3 pb-[70px] mt-14">
+            <h3 className=' mt-6 font-semibold text-xl'>Novedades</h3>
+            <div className="inline-block relative top-[-14px] w-3 h-1 bg-gray-900 rounded-full"></div>
 
 
             <div className='pb-10'>
@@ -33,7 +33,7 @@ export default function News() {
                 {images.map((img, index) => (
                     <figure className='inline-block min-w-13 min-h-13 max-w-[100px] max-h-[100px] mt-8' key={index}>
                         <img className="w-full h-full rounded-md" src={img} alt="" />
-                        <figcaption className='inline text-gray-200 text-sm font-ibmplex'>{name[index]}</figcaption>
+                        <figcaption className='inline text-xs font-bold font-stylish'>{name[index]}</figcaption>
                     </figure>
                 ))}
             </div>

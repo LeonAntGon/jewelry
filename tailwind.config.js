@@ -11,8 +11,14 @@ module.exports = {
           
           // ...otros niveles de opacidad
         },
+        coolwhite: {
+          '100': 'rgb(249, 247, 242)',
+        }
       },
     },
+    fontFamily:{
+      stylish: ["Cabin"]
+    }
   },
   plugins:  [],
 }
