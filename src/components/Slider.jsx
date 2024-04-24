@@ -3,7 +3,7 @@ import '../slider.css'
 
 export default function Slider(){
     return(
-    <div className='sliderContainer'>
+    <div className='sliderContainer mt-4'>
         <div className="slider">
             <div className="slide-track
             [&>div>p]:font-semibold [&>div>p]:text-sm">

@@ -31,7 +31,7 @@ export default function Header() {
             <button type="button" onClick={toggleDivVisibility} 
                      className=" rounded-md p-2 inline-flex items-center justify-center text-gray-100  focus:outline-none
                     focus:ring-2 focus:ring-inset float-right pt-3"> 
-              <svg class="h-[40px] w-[80px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <svg class="h-[40px] w-[70px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
@@ -39,14 +39,21 @@ export default function Header() {
 
                     <div className="grid grid-rows-2 gap-4 pt-[68px] pl-6">
                         <div className=''>
-                            <Link to="/"><p onClick={toggleDivVisibility} className='text-white text-base'>INICIO</p></Link>
+                            <Link to="/"><p onClick={toggleDivVisibility} className='text-white text-xs font-stylish'>INICIO</p></Link>
 
                         </div>
                         <hr className='w-[70%]'></hr>
                         <div className='pb-2'>
-                            <Link to="/nosotros"><p onClick={toggleDivVisibility} className='text-white text-base'>SOBRE NOSOTROS</p></Link>
+                            <Link to="/nosotros"><p onClick={toggleDivVisibility} className='text-white text-xs font-stylish'>SOBRE NOSOTROS</p></Link>
                         </div>
                         <hr className='w-[70%]'></hr>
+                    </div>
+
+                    <div className='flex mx-auto flex-wrap justify-center h-full items-center'>
+                      
+                            <img  className="h-[25px] pr-2 lg:pr-5" src={ig} alt="Instagram link"/>
+                            <img  className="h-[26px] "src={facebook} alt="Facebook link"/>
+                        
                     </div>
             </div>
 
@@ -58,10 +65,10 @@ export default function Header() {
                                md:flex'>
                     
                     <div>
-                        <Link to="/"><p className='text-white text-lg pr-2 lg:pr-5'>INICIO</p> </Link>
+                        <Link to="/"><p className='text-white  pr-2 lg:pr-5 text-base font-stylish '>INICIO</p> </Link>
                     </div>
                     <div>
-                        <Link to="/nosotros"><p className='text-white text-lg'>SOBRE NOSOTROS</p></Link>
+                        <Link to="/nosotros"><p className='text-white text-base font-stylish'>SOBRE NOSOTROS</p></Link>
                     </div>
                 
 
@@ -74,13 +81,13 @@ export default function Header() {
                             ">
                     <div>
                         <a href="">
-                            <img  className="h-[25px] pr-2 lg:pr-5" src={ig} alt="Instagram link"/>
+                            <img  className="h-[19px] pr-2 lg:pr-5" src={ig} alt="Instagram link"/>
                         </a>
                     </div>
                 <div>
                     <div>
                         <a href="">
-                            <img  className="h-[26px] "src={facebook} alt="Facebook link"/>
+                            <img  className="h-[20px] "src={facebook} alt="Facebook link"/>
                         </a>
                 </div>
 

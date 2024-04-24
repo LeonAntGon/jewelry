@@ -5,10 +5,10 @@ import '../components/assets/waveFooter/footerCss.css';
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-950  max-w-screen-md mx-auto min-h-20 justify-center pb-10">
+    <footer className="bg-neutral-950  max-w-screen-xl mx-auto min-h-20 justify-center pb-10">
     
       <div className='text-center item-center pb-4'>
-        <h2 className='text-white pt-6 text-xl'>Contactanos</h2>
+        <h2 className='text-white pt-6 text-xl'>Contacto</h2>
         <div className="inline-block relative top-[-14px] w-3 h-1 bg-gray-100 rounded-full"></div>
       </div>
     
