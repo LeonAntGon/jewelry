@@ -14,7 +14,7 @@ export default function VisitUs() {
                 className="w-full h-full"
                 ></iframe>
                 </div>
-                <div className="pl-8 pt-[40px] md:pt-0">
+                <div className="md:pl-8 pt-[40px] md:pt-0">
                     <h4 className="font-stylish font-semibold text-base">Dirección</h4>
                     <p className=' text-center pt-[4px] text-sm font-stylish'>Maipu 167 - Local 6</p>
                     <p className=' text-center pt-[4px] text-sm font-stylish'>San Miguel de Tucumán</p>
