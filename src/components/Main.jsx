@@ -4,7 +4,7 @@ import Slider from './Slider';
 import Slider1 from './Slider1'
 import '../slider.css';
 import VisitUs from './VisitUs'
-import WspLogo from './assets/whatsapp.png';
+
 
 
 export default function Main() {
