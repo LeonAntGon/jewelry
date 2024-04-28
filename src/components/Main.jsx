@@ -10,7 +10,7 @@ import VisitUs from './VisitUs'
 export default function Main() {
 
   return (
-    <main className='pt-[60px] [&>section>h2]:pt-4 [&>section>h2]:text-center max-w-screen-xl mx-auto bg-white'>
+    <main className='pt-[60px] [&>section>h2]:pt-4 [&>section>h2]:text-center w-full mx-auto bg-white'>
     <WeOffer />
         <section className='text-center my-[25px]'>
             <h2 className='text-xl font-semibold'>Fabricamos</h2>

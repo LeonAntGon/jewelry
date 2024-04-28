@@ -1,44 +1,93 @@
-import RingGold1 from './assets/rings/anillo-oro-plata(1).jpg';
-import RingGold2 from './assets/rings/anillo-oro-plata(2).jpg';
-import Bracelet1 from './assets/rings/brazalete(1).jfif';
-/*import RingTwo from './assets/rings/m-normal-in-gray(2).jpg';
-import RingThree from './assets/rings/m-bg-gray(3).jpg';
-import RingFour from './assets/rings/m-normal(4).jpg';
-import RingFive from './assets/rings/anillo-oro-plata-1(5).jpg';*/
-import RingArtes1 from './assets/rings/anillo-artesanal(1).jpg';
-import RingArtes2 from './assets/rings/anillo-artesanal(2).jpg';
-import RingArtes3 from './assets/rings/anillo-artesanal(3).jpg';
-import RingNine from './assets/rings/anillo-grabado-espejo(1).jpg';
-import RingTen from  './assets/rings/anillo-grabado-espejo(2).jpg';
-import RingEleven from './assets/rings/anillo-grabado-espejo(3).jpg';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import "../data/slide.css"
+import { dataNews } from "../data/news";
 
 
-const images = [RingArtes1 ,RingArtes2, RingArtes3,RingNine,RingTen,RingEleven,
-                RingGold1, RingGold2 , Bracelet1];
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "#636363", zIndex:"10",
+        borderRadius: "50px", filter: "drop-shadow(2px 4px 6px gray)"}}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "#636363", zIndex:"10",
+        borderRadius: "50px", filter: "drop-shadow(2px 4px 6px gray)"}}
+        onClick={onClick}
+      />
+    );
+  }
 
-const name = ["ANILLOS ARTESANALES","ANILLOS ARTESANALES","ANILLOS ARTESANALES"," AN. GRABADO ESPEJO","AN. GRABADO ESPEJO","AN. GRABADO ESPEJO","ANILLO DE LETRA", " ANILLO DE LETRA" ,"BRAZALETES"]
-/*Eliminar del 2-4 */
-
+  
 export default function News() {
-    return(
-
-
-        <section className="border-t border-b border-black  text-center item-center bg-coolwhite-100 pt-3 pb-[70px] mt-14">
-            <h3 className=' mt-6 font-semibold text-xl'>Novedades</h3>
-            <div className="inline-block relative top-[-14px] w-3 h-1 bg-gray-900 rounded-full"></div>
-
-
-            <div className='pb-10'>
-            <div className='inline-flex flex-wrap justify-center gap-8'>
-                {images.map((img, index) => (
-                    <figure className='inline-block min-w-13 min-h-13 max-w-[100px] max-h-[100px] mt-8' key={index}>
-                        <img className="w-full h-full rounded-md" src={img} alt="" />
-                        <figcaption className='inline text-xs font-bold font-stylish'>{name[index]}</figcaption>
-                    </figure>
-                ))}
+    var settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        initialSlide: 0,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 782,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          }
+        ]
+      };
+      return (
+        <div className="text-center bg-coolwhite-100 pt-[40px] pb-[100px] border-t border-b border-black mt-[60px] ">
+         <h2 className='text-xl font-semibold'>Novedades</h2>
+            <div class="inline-block relative top-[-14px] w-3 h-1 bg-neutral-900 rounded-full "></div>
+            <div className=" w-[80%] mx-auto mt-[50px]">
+                <Slider {...settings}>
+                    {dataNews.map((item) => (
+                        <div className=" bg-gray- overflow-hidden">
+                            <div className="">
+                              <img  className="w-full rounded-lg" src={item.image} alt="imagen de novedad"/>
+                            </div> 
+                            <div className=" pt-2">
+                               <p className="font-stylish opacity-50 text-sm">{item.category}</p>
+                               <p className="font-stylish tracking-wider text-[14px]">{item.title}</p> 
+                               <p className="font-stylish tracking-wider text-xs">{item.element}</p>
+                               <p className="font-stylish font-bold text-[10px] pt-1">{item.price}</p>
+                            </div>
+                        </div>
+                    ))}
+                </Slider>
             </div>
-            </div>
-            
-        </section>
+        </div>
     );
 }

@@ -4,7 +4,7 @@ import phone from './assets/phone.jpg';
 
 const Footer = () => {
   return (
-    <footer className="bg-black  max-w-screen-xl mx-auto min-h-20 justify-center pb-10">
+    <footer className="bg-black   mx-auto min-h-20 justify-center pb-10 w-full">
     
       <div className='text-center item-center pb-4'>
         <h2 className='text-white pt-6 text-xl'>Contacto</h2>

@@ -15,13 +15,13 @@ export default function VisitUs() {
                 ></iframe>
                 </div>
                 <div className="md:pl-8 pt-[40px] md:pt-0">
-                    <h4 className="font-stylish font-semibold text-base">Dirección</h4>
-                    <p className=' text-center pt-[4px] text-sm font-stylish'>Maipu 167 - Local 6</p>
-                    <p className=' text-center pt-[4px] text-sm font-stylish'>San Miguel de Tucumán</p>
+                    <h4 className="font-stylish font-semibold text-xl">Dirección</h4>
+                    <p className=' text-center pt-[4px] text-base font-stylish'>Maipu 167 - Local 6</p>
+                    <p className=' text-center pt-[4px] text-base font-stylish'>San Miguel de Tucumán</p>
 
-                    <h4 className="font-stylish font-semibold pt-[24px]">Horario de atención</h4>
-                    <p className='text-sm font-stylish'>Lunes a sábado:</p>
-                    <p className='text-sm font-stylish'>De 10:30 hrs a 21:00 hrs</p>
+                    <h4 className="font-stylish font-semibold pt-[24px] text-xl">Horario de atención</h4>
+                    <p className='text-base font-stylish'>Lunes a sábado:</p>
+                    <p className='text-basesa font-stylish'>De 10:30 hrs a 21:00 hrs</p>
                 </div>
             </div>
         </section>
