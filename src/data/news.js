@@ -17,20 +17,6 @@ export const dataNews = [
    
     {
         id: 1,
-        category: "Brazaletes",        
-        title: "Brazalete labrado y liso de alpaca",
-        price: "$6000",
-        image: ringart1
-    },
-    {
-        id: 2,
-        category: "Brazaletes",
-        title:"Brazalete labrado y liso de alpaca",
-        price: "$6000",
-        image: ringart2
-    },
-    {
-        id: 3,
         category: "Anillos",
         title: "Anillos artesanales alpaca o plata",
         element:"Alpaca - Plata",
@@ -38,12 +24,26 @@ export const dataNews = [
         image: ringgrab1
     },
     {
-        id: 4,
+        id: 2,
         category: "Anillos",
         title: "Anillos artesanales alpaca o plata",
         element: "Alpaca - Plata",
         price: "$4000 - $12000",
         image: ringgrab2
+    },
+    {
+        id: 3,
+        category: "Brazaletes",        
+        title: "Brazalete labrado y liso de alpaca",
+        price: "$6000",
+        image: ringart1
+    },
+    {
+        id: 4,
+        category: "Brazaletes",
+        title:"Brazalete labrado y liso de alpaca",
+        price: "$6000",
+        image: ringart2
     },
     {
         id: 5,

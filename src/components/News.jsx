@@ -81,7 +81,7 @@ export default function News() {
                             <div className=" pt-2">
                                <p className="font-stylish opacity-50 text-sm">{item.category}</p>
                                <p className="font-stylish tracking-wider text-[14px]">{item.title}</p> 
-                               <p className="font-stylish tracking-wider text-xs font-bold pt-2">{item.element}</p>
+                               <p className="font-stylish tracking-wider text-xs font-bold pt-1">{item.element}</p>
                                <p className="font-stylish font-bold text-[10px] pt-1">{item.price}</p>
                             </div>
                         </div>
