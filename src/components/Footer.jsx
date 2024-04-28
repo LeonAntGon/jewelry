@@ -24,7 +24,7 @@ const Footer = () => {
    
         
       <div>
-        <p className='copywrite text-center pt-10 text-coolwhite-100'>&copy;2024 | Todos los derechos reservados</p>
+        <p className='copywrite text-center pt-10 text-coolwhite-100'>&copy;2024 | Copywrite</p>
       </div>
     </footer>
   );
