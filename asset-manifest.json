@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ad6c5695.css",
-    "main.js": "/static/js/main.78353f94.js",
+    "main.js": "/static/js/main.f0f82cb9.js",
     "static/js/787.c3098d88.chunk.js": "/static/js/787.c3098d88.chunk.js",
     "static/media/anillo-oro-plata(1).png": "/static/media/anillo-oro-plata(1).6daf2694afa9516c86a6.png",
     "static/media/1.png": "/static/media/1.7455db0d150d5e96ea90.png",
@@ -22,11 +22,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.ad6c5695.css.map": "/static/css/main.ad6c5695.css.map",
-    "main.78353f94.js.map": "/static/js/main.78353f94.js.map",
+    "main.f0f82cb9.js.map": "/static/js/main.f0f82cb9.js.map",
     "787.c3098d88.chunk.js.map": "/static/js/787.c3098d88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad6c5695.css",
-    "static/js/main.78353f94.js"
+    "static/js/main.f0f82cb9.js"
   ]
 }
