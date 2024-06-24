@@ -20,9 +20,9 @@ export default function Header() {
             {/*Hamburguer*/ }
             <div className="mx-5 pt-5 [&>span]:h-[3px] [&>span]:rounded-sm
                             md:hidden cursor-pointer" onClick={toggleDivVisibility} >
-                <span className="block w-6 bg-white mb-[6px]"></span>
-                <span className="block w-4 bg-white mb-[6px]"></span>
-                <span className="block w-5 bg-white"></span>
+                <span className="block w-6 bg-black mb-[6px]"></span>
+                <span className="block w-4 bg-black mb-[6px]"></span>
+                <span className="block w-5 bg-black"></span>
             </div>
 
             {/*Menu Lateral*/}

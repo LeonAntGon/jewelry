@@ -5,13 +5,14 @@ import Main from './components/Main';
 import About from './components/pages/About.jsx';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Whatsapp from './components/Whatsapp.jsx'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
     <div className='App'>
     <Router>
       <Header />
-
+      <Analytics />
         <Routes>
           <Route path="/" element={<Main/>} />
           <Route path="*" element={<Main/>} />
